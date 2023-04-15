@@ -38,14 +38,14 @@ function displayInfo(){
             <p>${user.profession}</p>
             <p>${user.age}</p>
         </div>
-        <button id="deletebtn" class="deletebtn">Delete User</button>
+        <button id="deletebtn" class="deletebtn" onclick="deleteInfo(${i})">Delete User</button>
     </div>`;
     });
-    // recordsDisplay.innerHTML = statement;
+    recordsDisplay.innerHTML = statement;
 }
 
 
-function deleteInfo(){
-    // userArray.splice(i,1);
-    // saveInfo(userArray);
+function deleteInfo(i){
+    userArray.splice(i,1);
+    saveInfo(userArray);
 }

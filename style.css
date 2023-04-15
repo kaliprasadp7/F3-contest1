@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    padding: 20px;
+    background-color: black;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 10px;
+    color: white;
+}
+label{
+    color: white;
+}
+button{
+    display: block;
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+.display-container{
+    margin-top: 20px;
+}
+.deletebtn{
+    width: 100px;
+    height: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.display-container > div{
+    display: flex;
+    gap: 30px;
+}
+.display-container >div>div{
+    display: flex;
+    gap: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+

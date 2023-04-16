@@ -76,5 +76,9 @@ button{
     color: #43FF78;
     display:none;
 }
+.empty-msg{
+    color: lightgray;
+    display: none;
+}
 
 

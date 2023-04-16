@@ -17,6 +17,10 @@ btn.addEventListener("click", function(){
 
     if(name != '' && profession != '' && age != ''){
         userArray.push({'name' : name, 'profession' : profession, 'age' : age});
+        document.getElementById("error").style.display="none";
+        document.getElementById("success").style.display="block";
+    }else{
+        document.getElementById("error").style.display="block";
     }
 
     saveInfo(userArray);
